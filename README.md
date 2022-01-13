@@ -15,7 +15,7 @@ wget -qO - "https://raw.githubusercontent.com/rhuan-pk/noti-notify/master/instal
 ~~~shell
 noti-notify <option>
 
-		-h, --help: print this message and exit with 0
+	-h, --help: print this message and exit with 0
         -v, --version: print the version of programm and exit with 0
         -s, --start: start the programm
         -c, --cancel: stop the programm
