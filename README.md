@@ -7,7 +7,7 @@ Script feito utilizando o utilitário "noti" (do user: [variadico](https://githu
 ## Instalação
 
 ~~~shell
-wget -qO - "https://raw.githubusercontent.com/rhuan-pk/noti-notify/master/install.run" | bash -
+wget -qO - "https://raw.githubusercontent.com/rhuan-pk/noti-notify/master/install" | bash -
 ~~~
 
 ## Uso
