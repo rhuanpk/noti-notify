@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+source /usr/local/lib/noti-notify/nn-repita.sh
+source /usr/local/lib/noti-notify/nn-send.sh
+source /usr/local/lib/noti-notify/nn-usage.sh
+source /usr/local/lib/noti-notify/nn-startend.sh
+
+readonly version=0.0.0
+
+case ${1} in
+	-h | --help) nn_print_usage; exit 0;;
+	-v | --version) echo "version $(basename ${0}) ${version}"; exit 0;;
+	-s | --start) cd /tmp; start_command;;
+	-c | --cancel) end_command;;
+	"" | *) nn_print_usage; exit 1;;
+esac
