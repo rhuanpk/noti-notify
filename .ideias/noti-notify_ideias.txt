@@ -1,21 +1,10 @@
 # OSB: implementar que caso o usuário queria apenas encerrar o programa por x tempo, ele emitira um signal de restart com tempo???
 
-#### para rodar o programa ###########
-# nohup repita.sh 'noti-notify' '3' &
-######################################
-
-#### para encerrar o programa ###########################################################
-# kill -TERM $(ps -e -o pid,cmd | grep 'repita' | grep 'noti-notify' | awk '{print $1}')
-#########################################################################################
-
-
 parâmetro -t para setar um novo tempo, -e para setar um novo comando ou "--command | --custom"
 
 -v para vizualizar o atual tempo e comando setado
 
-
 ---
-
 
 na hora de criar o instalador
 
