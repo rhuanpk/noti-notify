@@ -1,21 +1,6 @@
-# OSB: implementar que caso o usuário queria apenas encerrar o programa por x tempo, ele emitira um signal de restart com tempo???
+-v para vizualizar o atual tempo e comando setado e para ver o comando atual também (para que não tenha que entrar no arquivo)
 
-parâmetro -t para setar um novo tempo, -e para setar um novo comando ou "--command | --custom"
-
--v para vizualizar o atual tempo e comando setado
-
----
-
-na hora de criar o instalador
-
-git clone no repo para /tmp/noti-notify
-mkdir no /usr/local/lib/noti-notify
-mover os binarios para local/bin
-mover as libs para local/lib
-se auto remover (rm -rf /tmp/noti-notify)
-
-para baixado, baixar com wget já passando por parâmetro para executar
-wget -qO - "https://raw.githubusercontent.com/rhuan-pk/noti-notify/master/install.run" | bash -
+criar exemplo de utilização do parametro --command 
 
 ---
 
