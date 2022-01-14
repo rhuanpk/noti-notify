@@ -17,3 +17,6 @@ se auto remover (rm -rf /tmp/noti-notify)
 para baixado, baixar com wget já passando por parâmetro para executar
 wget -qO - "https://raw.githubusercontent.com/rhuan-pk/noti-notify/master/install.run" | bash -
 
+---
+
+colocar um log no install que jogo no /tmp
