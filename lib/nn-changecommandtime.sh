@@ -2,7 +2,7 @@ change_command(){
 	PATH="/usr/local/lib/noti-notify/nn-send.sh"
 	echo 'nn_notify() {' > ${PATH}
 	while read line; do
-		echo "${line}" >> ${PATH}
+		echo "        ${line}" >> ${PATH}
 	done < ${1}
 	echo '}' >> ${PATH}
 }
