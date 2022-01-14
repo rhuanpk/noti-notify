@@ -19,5 +19,7 @@ noti-notify [option]
         -v, --version: print the version of programm and exit with 0
         -s, --start: start the programm
         -c, --cancel: stop the programm
+	    --command "/path/to/your/command/file": sets a new command
+	    --time "n": where "n" is the value in seconds
 ~~~
 
