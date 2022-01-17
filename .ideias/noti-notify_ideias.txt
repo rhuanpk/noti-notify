@@ -1,7 +1,0 @@
--v para vizualizar o atual tempo e comando setado e para ver o comando atual também (para que não tenha que entrar no arquivo)
-
-criar exemplo de utilização do parametro --command 
-
----
-
-colocar um log no install que jogo no /tmp

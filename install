@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 INSTALL_PATH="/tmp/noti-notify"
-git clone "https://github.com/rhuan-pk/noti-notify.git" ${INSTALL_PATH}
-cd ${INSTALL_PATH}
-git checkout dev
-sudo mkdir -pv /usr/local/lib/noti-notify
-sudo mv -v ${INSTALL_PATH}/lib/* /usr/local/lib/noti-notify
-sudo mv -v ${INSTALL_PATH}/bin/* /usr/local/bin
-rm -rf ${INSTALL_PATH}
+FILE_PATH="/tmp/noti-notify_file.log"
+git clone "https://github.com/rhuan-pk/noti-notify.git" ${INSTALL_PATH} >> ${FILE_PATH}
+sudo mkdir -pv /usr/local/lib/noti-notify >> ${FILE_PATH}
+sudo mv -v ${INSTALL_PATH}/lib/* /usr/local/lib/noti-notify >> ${FILE_PATH}
+sudo mv -v ${INSTALL_PATH}/bin/* /usr/local/bin >> ${FILE_PATH}
+rm -rfv ${INSTALL_PATH} >> ${FILE_PATH}
