@@ -5,8 +5,9 @@ source /usr/local/lib/noti-notify/nn-send.sh
 source /usr/local/lib/noti-notify/nn-usage.sh
 source /usr/local/lib/noti-notify/nn-startend.sh
 source /usr/local/lib/noti-notify/nn-changecommandtime.sh
+source /usr/local/lib/noti-notify/nn-viewcommandtime.sh
 
-readonly version=0.1.2
+readonly version=0.2.2
 
 case ${1} in
 	-h | --help) nn_print_usage; exit 0;;
@@ -15,5 +16,7 @@ case ${1} in
 	-c | --cancel) end_command;;
 	--command) change_command "${2}";;
 	--time) change_time "${2}";;
+	--view-command) view_command;;
+	--view-time) view_time;;
 	"" | *) nn_print_usage; exit 1;;
 esac

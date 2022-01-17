@@ -11,6 +11,5 @@ change_time(){
 		echo -e "\n\e[31m> Time cannot be null and and must be greater than 1 !\e[m\n"; exit 1
 	else
 		sudo sed -i "1s~^.*~TIME=${1}~" /usr/local/lib/noti-notify/nn-startend.sh
-		echo -e "\n\e[32m> Successfully changed !\e[m\n"; exit 0
 	fi
 }
