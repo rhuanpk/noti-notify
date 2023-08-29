@@ -7,7 +7,7 @@ source /usr/local/lib/noti-notify/nn-startend.sh
 source /usr/local/lib/noti-notify/nn-changecommandtime.sh
 source /usr/local/lib/noti-notify/nn-viewcommandtime.sh
 
-readonly version=0.2.2
+readonly version=0.3.2
 
 case ${1} in
 	-h | --help) nn_print_usage; exit 0;;
