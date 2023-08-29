@@ -21,7 +21,7 @@ noti-notify [option]
         -c, --cancel: stop the programm
 	    --command "/path/to/your/command/file": sets a new command
 	    --time "n": where "n" is the value in seconds
-	    --view-comman: see the command that are set
+	    --view-command: see the command that are set
 	    --view-time: see the seconds that are set 
 ~~~
 
